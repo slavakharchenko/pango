@@ -1,0 +1,23 @@
+{
+  "name": "pango",
+  "version": "1.0.0",
+  "description": "Playwright tests",
+  "scripts": {
+    "test": "npx playwright test",
+    "test-ui": "npx playwright test --ui",
+    "test-debug": "npx playwright test --debug",
+    "prettier": "npx prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slavakharchenko/pango.git"
+  },
+  "author": "Viacheslav Kharchenko",
+  "license": "ISC",
+  "homepage": "https://github.com/slavakharchenko/pango#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4",
+    "prettier": "3.3.3"
+  }
+}
